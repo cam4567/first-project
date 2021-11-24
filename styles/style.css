@@ -25,7 +25,7 @@
   display: flex;
   align-items: center;
   overflow: hidden;
-}       
+}
 
 .logo {
   width: 183px;
@@ -50,7 +50,7 @@
   margin-left: 64px;
   z-index: 2;
   position: flex;
-  position: relative;  
+  position: relative;
 }
 
 .header__subtitle {
@@ -70,7 +70,7 @@
   color: #2f80ed;
   text-decoration: none;
 }
- 
+
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   background-color: #2f80ed;
@@ -111,7 +111,7 @@
   font-weight: 400;
   color:#2f80ed;
   margin: 0;
-  padding: 0; 
+  padding: 0;
 }
 
 .two-columns__main-text {
@@ -286,6 +286,7 @@
 
 .kaufman__triangle {
   background-image: url(../images/kaufman-triangle.svg);
+  background-size: 877px 877px;
   width: 877px;
   height: 877px;
   position: absolute;
