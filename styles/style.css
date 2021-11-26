@@ -28,17 +28,18 @@
 }
 
 .logo {
-  width: 183px;
-  z-index: 2;
+  z-index: 3;
   background-position: center;
   background-size: cover;
+  width: 183px;
 }
 
 .logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
-  z-index: 2;
+  height: 32px;
+  background-image: url(../images/logo_place_header.svg);
 }
 
 .header__title {
@@ -208,7 +209,7 @@
   background-image: url(../images/feynman.png);
   background-repeat: no-repeat;
   background-size: 867px 637px;
-  background-position-x: left bottom;
+  background-position: bottom 0 left 0;
   background-color: #f2f2f2;
   height: 890px;
   padding-top: 100px;
@@ -323,7 +324,7 @@
 }
 
 .logo_place_footer {
-  width: 183px;
+  background-image: url(../images/logo_place_footer.svg);
   height: 35px;
 }
 
