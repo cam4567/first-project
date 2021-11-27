@@ -20,7 +20,6 @@
   /* выше установили ограничения для секции */
   background-color: #f2f2f2;
   position: relative;
-  padding-left: 64px;
   box-sizing: border-box;
   display: flex;
   align-items: center;
@@ -43,6 +42,8 @@
 }
 
 .header__title {
+  margin: 0;
+  padding: 0;
   width: 730px;
   line-height: 96px;
   font-size: 102px;
@@ -50,11 +51,11 @@
   color:  #000000;
   margin-left: 64px;
   z-index: 2;
-  position: flex;
-  position: relative;
 }
 
 .header__subtitle {
+  margin: 0;
+  padding: 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: 400;
@@ -63,8 +64,6 @@
   left: 64px;
   z-index: 2;
   position: absolute;
-  margin: 0;
-  padding: 0;
 }
 
 .header__link {
@@ -82,7 +81,7 @@
   right: 0px;
 }
 
-.header__main_illustration {
+.header__main-illustration {
   width: 765px;
   height: 608px;
   position: absolute;
@@ -95,7 +94,6 @@
 .description {
   display: flex;
   padding-top: 100px;
-  padding-bottom: 100px;
   justify-content: center;
 }
 
@@ -106,28 +104,28 @@
 }
 
 .two-columns__brief {
+  margin: 0;
+  padding: 0;
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
   font-weight: 400;
   color:#2f80ed;
-  margin: 0;
-  padding: 0;
 }
 
 .two-columns__main-text {
-  width: 80%;
-  min-width: 784px;
   margin: 0;
   padding: 0;
+  width: 80%;
+  min-width: 784px;
 }
 
 .two-columns__paragraph {
   margin: 0 0 30px 0;
+  padding: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: 400;
-  padding: 0;
 }
 
 .two-columns__paragraph:last-child {
@@ -135,11 +133,11 @@
 }
 
 .two-columns__span-accent{
+  margin: 0;
+  padding: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: 600;
-  margin: 0;
-  padding: 0;
 }
 
                                                    /*------------- Digits блок---------------- */
@@ -151,34 +149,35 @@
 }
 
 .section-title {
+  margin: 0;
+  padding: 0;
   width: 60%;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
   text-align: center;
-  margin: 0;
-  padding: 0;
   z-index: 2;
 }
 
 .section-subtitle {
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
   width: 60%;
   line-height: 34px;
   font-size: 24px;
   font-weight: 400;
   text-align: center;
-  margin-top: 20px;
-  margin: 0;
-  padding: 0;
   z-index: 2;
 }
 
 .table {
+  margin: 0 auto;
+  padding: 0;
   width: 1100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0 auto;
 }
 
 .table__cell {
@@ -189,19 +188,19 @@
 }
 
 .table__heading {
+  margin: 0;
+  padding: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
-  margin: 0;
-  padding: 0;
 }
 
 .table__text {
+  margin-top: 20px;
+  margin-bottom: 0px;
   line-height: 1.2;
   font-size: 18px;
   font-weight: 400;
-  margin-top: 20px 0;
-  padding: 0;
 }
                                                          /*---------------- Feynman-------------- */
 
@@ -211,7 +210,7 @@
   background-size: 867px 637px;
   background-position: bottom 0 left 0;
   background-color: #f2f2f2;
-  height: 890px;
+  min-height: 890px;
   padding-top: 100px;
   position: relative;
   align-items: center;
@@ -220,22 +219,22 @@
 }
 
 .feynman__title {
+  margin: 0;
+  padding: 0;
   width: 648px;
   line-height: 1.15;
   font-size: 120px;
   font-weight: 600;
   text-align: center;
-  margin: 0;
-  padding: 0;
 }
 
 .feynman__subtitle {
+  margin: 0;
+  padding: 0;
   line-height: 51px;
   font-size: 36px;
   font-weight: 400;
   margin-top: 70px;
-  margin: 0;
-  padding: 0;
 }
 
 .feynman__link {
